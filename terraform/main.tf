@@ -9,6 +9,7 @@ terraform {
     bucket         = "tf.lab"
     key            = "terraform.tfstate"
     region         = "us-east-1"
+    profile        = "tfadmin"
   }
 
 }
