@@ -24,5 +24,6 @@ resource "aws_instance" "test_instance" {
   instance_type = "t2.nano"
   tags = {
     Name = "test_instance"
+    Project = "Development"
   }
 }
